@@ -6,7 +6,7 @@
 
 Код обучения выполнялся на GPU на отдельном сервере. Прямого доступа к ядру сервера нет - он импортирует и выполняет функции в заданном формате:
 
-`load_train(path)` - загрузка тренировочного датасета,
-`load_test(path)` - загрузка тестового датасета,
-`create_model(input_shape)` - создание архитектуры сети, компиляция модели,
-`train_model(model, train_data, test_data, batch_size, epochs, steps_per_epoch, validation_steps)` - обучение модели
+- `load_train(path)` - загрузка тренировочного датасета,
+- `load_test(path)` - загрузка тестового датасета,
+- `create_model(input_shape)` - создание архитектуры сети, компиляция модели,
+- `train_model(model, train_data, test_data, batch_size, epochs, steps_per_epoch, validation_steps)` - обучение модели
